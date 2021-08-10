@@ -1,0 +1,20 @@
+Esta aplicacion esta pensada solo para que el usuario registre y acceda a su cuenta desde su dispositivo movil únicamente
+
+La misma cuenta con dos bases de datos:
+
+- DBSQLite: Base de datos local para almacenar y consultar datos del paciente
+- DBFirestore Base de datos externa para almacenar pacientes, y guardar y consultar las comidas de los mismos
+
+El paciente se registra en ambas base de datos pero la consulta del mismo para el inicio de sesion se realiza a traves de base de datos local
+
+La aplicación también cuenta con un Api Rest que se conecta a una pagina de cocktails y nos trae un trago al azar que despues se muestra en un fragment que aparece despues de registrar una nueva comida.
+
+La aplicacion cuenta con 5 activities:
+
+- SplashActivity: Pantalla que muestra el logo de la aplicacion durante 3 segundos
+- LoginActivity: Pantalla donde el usuario inicia sesión con su cuenta o registra una nueva (para mantener el usuario logueado se utiliza SharedPreferences)
+- NuevoPacienteActivity: Pantalla donde se completa un formulario para registrar un nuevo paciente (se validan que los campos no esten vacíos ni que el dni o el usuario se repitan)
+- MainActivity: Pantalla donde se podran consultar las comidas registradas en la fecha o de alguna en particular (se utiliza un RecycleView con CardsView expandibles), desde aquí también se podra registrar una nueva comida
+- NuevaComidaActivity: Pantalla donde se completa un formulario para registrar una nueva comida con la fecha y hora actual (se validan que los campos no esten vacíos)
+
+También se realizaron UnitTests con Robolectric sobre los métodos de la clase DBSQLite e InstrumentedTests con Espresso sobre LoginActivity, NuevoPacienteActivity, MainActivity y NuevaComidaActivity

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "647346292766",
+    "project_id": "saludable-9af77",
+    "storage_bucket": "saludable-9af77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647346292766:android:0bb07a052fb3ecc98d460f",
+        "android_client_info": {
+          "package_name": "edu.neo.saludable"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647346292766-3oqjb3bco3npiecanpe9f35h10f8ai8f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.neo.saludable",
+            "certificate_hash": "570941b3607074e6be84199dedd9bbdef4b00f36"
+          }
+        },
+        {
+          "client_id": "647346292766-ec9cf8e0vbtb2965il2jiuulodhcpt13.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyA8QdX3wqVYJiv4V9mxaX4lD4smS-Hg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647346292766-ec9cf8e0vbtb2965il2jiuulodhcpt13.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Saludable</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="dni">DNI</string>
+    <string name="sexo">Sexo:</string>
+    <string name="fechaNacimiento">Fecha De Nacimiento</string>
+    <string name="localidad">Localidad</string>
+    <string name="usuario">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="tipoTratamiento">Tipo De Tratamiento:</string>
+    <string name="tipoComidaDiaria">Tipo De Comida Diaria:</string>
+    <string name="comidaPrincipal">Comida Principal</string>
+    <string name="comidaSecundaria">Comida Secundaria</string>
+    <string name="bebida">Bebida</string>
+    <string name="ingerioPostre">¿Ingerió postre?</string>
+    <string name="postre">Postre</string>
+    <string name="tentacionOtroAlimiento">¿Tenía tentación de ingerir otro alimiento?</string>
+    <string name="otroAlimento">Alimento que quería ingerir</string>
+    <string name="quedoConHambre">¿Se quedo con hambre?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
