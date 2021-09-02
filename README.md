@@ -1,5 +1,4 @@
 # Saludable
-# Censo2021
 Aplicación móvil para Android desarrollada en el marco del bootcamp Android Kotlin que lleve a cabo en el año 2021. 
 Está destinada para que el paciente de un centro de nutrición registre sus comidas diarias permitiendo a dicho centro poder consumir la información registrada desde otra plataforma para llevar un seguimiento del mismo. Dicha aplicación cuenta con las siguientes características:
 - El paciente al ingresar a la aplicación se registra una nueva cuenta con la que va a iniciar sesión en la aplicación, en dicho registro coloca sus datos personales, el usuario, contraseña y el tipo de tratamiento (Bulimia, Anorexia u Obesidad).
